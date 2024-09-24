@@ -1,3 +1,7 @@
+import { Plus, X } from "lucide-react";
+import letsStart from "./assets/lets-start.svg";
+import logo from "./assets/logo-in-orbit.svg";
+import { Button } from "./components/ui/button";
 import {
 	Dialog,
 	DialogClose,
@@ -5,15 +9,14 @@ import {
 	DialogDescription,
 	DialogTitle,
 	DialogTrigger,
-} from "@radix-ui/react-dialog";
-import { RadioGroup, RadioGroupItem } from "@radix-ui/react-radio-group";
-import { Plus, X } from "lucide-react";
-import letsStart from "./assets/lets-start.svg";
-import logo from "./assets/logo-in-orbit.svg";
-import { Button } from "./components/ui/button";
+} from "./components/ui/dialog";
 import { Input } from "./components/ui/input";
 import { Label } from "./components/ui/label";
-import { RadioGroupIndicator } from "./components/ui/radio-group";
+import {
+	RadioGroup,
+	RadioGroupIndicator,
+	RadioGroupItem,
+} from "./components/ui/radio-group";
 
 export function App() {
 	return (
