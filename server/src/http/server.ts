@@ -31,6 +31,3 @@ app
 	.then(() => {
 		console.log("server running.");
 	});
-
-// AULA 1
-// https://www.youtube.com/watch?v=d_UqdbV7SG4&t=3987s
